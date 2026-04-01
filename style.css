@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #222;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ヒーローセクション */
+.hero {
+  background-color: #d0d0d0; /* 背景色（画像に差し替え可） */
+  /* 背景画像を使う場合は以下を有効化 */
+  /* background-image: url('images/background.jpg');
+     background-size: cover;
+     background-position: center; */
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.hero-image-wrapper {
+  background-color: #e0e0e0;
+  width: 75%;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* NAMEセクション */
+.name-section {
+  padding: 32px 24px 16px;
+  text-align: center;
+}
+
+.site-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.name-section p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* コンテンツセクション（Header1〜3共通） */
+.content-section {
+  padding: 32px 24px 16px;
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.content-section p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* ボトム画像セクション */
+.bottom-image-section {
+  padding: 32px 16px 48px;
+  text-align: center;
+}
+
+.bottom-image-section img {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #e0e0e0;
+  display: inline-block;
+}
